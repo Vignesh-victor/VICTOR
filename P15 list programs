@@ -1,0 +1,33 @@
+fruit=["apple","banana","cherry","dragonfru","eggfruit","grape","apple","banana","cherry","dragonfru","eggfruit","grape","apple"]
+fruit.append("watermelon")
+print(fruit)
+print(fruit.index("cherry"))  #index value search
+print(fruit.count("apple"))   #counting
+
+#extend element sepreating
+
+fruit=["apple","banana","cherry","dragonfru"]
+fruit.extend("love")
+print(fruit)
+
+fruit=["apple","banana","cherry","dragonfru"]
+fruit.insert(3,"vicky")  #inserting the value
+print(fruit)
+
+#reving by loop value name
+
+fruit=["apple","banana","cherry","dragonfru"]
+fruit.remove("cherry")
+print(fruit)
+
+#removing by index value
+ 
+fruit=["apple","banana","cherry","dragonfru"]
+fruit.pop(2)
+print(fruit)
+
+#sort
+
+fruit=["grape","apple","hello","banana","cherry","vicky","dragonfru","dog","newzealand","eggfruit"]
+fruit.sort()
+print(fruit)
